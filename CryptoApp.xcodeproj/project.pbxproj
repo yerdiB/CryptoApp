@@ -24,6 +24,9 @@
 		DDAA5994297679FA00F33C44 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA5993297679FA00F33C44 /* CoinImageView.swift */; };
 		DDAA599629767B7E00F33C44 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA599529767B7E00F33C44 /* CoinImageService.swift */; };
 		DDAA599829767D4800F33C44 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA599729767D4800F33C44 /* CoinImageViewModel.swift */; };
+		DDBEC4E5297E698600A54E44 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBEC4E4297E698600A54E44 /* LocalFileManager.swift */; };
+		DDBEC4E7297E782300A54E44 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBEC4E6297E782300A54E44 /* SearchBarView.swift */; };
+		DDBEC4E9297E81FB00A54E44 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBEC4E8297E81FB00A54E44 /* UIApplication.swift */; };
 		DDCCA4082975BD6F007129F1 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCA4072975BD6F007129F1 /* PreviewProvider.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		DDAA5993297679FA00F33C44 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		DDAA599529767B7E00F33C44 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		DDAA599729767D4800F33C44 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		DDBEC4E4297E698600A54E44 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		DDBEC4E6297E782300A54E44 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		DDBEC4E8297E81FB00A54E44 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		DDCCA4072975BD6F007129F1 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +112,7 @@
 				DD07CFBA296D034A00220DA6 /* Color.swift */,
 				DDCCA4072975BD6F007129F1 /* PreviewProvider.swift */,
 				DDAA598829765F9400F33C44 /* Double.swift */,
+				DDBEC4E8297E81FB00A54E44 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 			children = (
 				DDAA5992297679E600F33C44 /* CoinImage */,
 				DD07CFC3296D068100220DA6 /* CircleButton */,
+				DDBEC4E6297E782300A54E44 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -184,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				DDAA59902976745C00F33C44 /* NetworkingManager.swift */,
+				DDBEC4E4297E698600A54E44 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,11 +280,14 @@
 				DD07CFCF296D1C0200220DA6 /* CoinRowView.swift in Sources */,
 				DD07CFAE296D015C00220DA6 /* ContentView.swift in Sources */,
 				DDAA598B2976670600F33C44 /* HomeViewModel.swift in Sources */,
+				DDBEC4E5297E698600A54E44 /* LocalFileManager.swift in Sources */,
 				DD07CFC1296D051600220DA6 /* HomeView.swift in Sources */,
 				DDAA5994297679FA00F33C44 /* CoinImageView.swift in Sources */,
 				DD07CFAC296D015C00220DA6 /* CryptoAppApp.swift in Sources */,
+				DDBEC4E9297E81FB00A54E44 /* UIApplication.swift in Sources */,
 				DD07CFC8296D06BC00220DA6 /* CircleButtonView.swift in Sources */,
 				DD07CFBB296D034A00220DA6 /* Color.swift in Sources */,
+				DDBEC4E7297E782300A54E44 /* SearchBarView.swift in Sources */,
 				DDAA59912976745C00F33C44 /* NetworkingManager.swift in Sources */,
 				DD07CFCA296D09A100220DA6 /* CircleButtonAnimationView.swift in Sources */,
 				DDAA599829767D4800F33C44 /* CoinImageViewModel.swift in Sources */,
