@@ -8,21 +8,23 @@
 import SwiftUI
 
 struct XMarkButton: View {
-    
-    @Environment(\.presentationMode) var presentationMode
+
+    let action: () -> ()
     
     var body: some View {
-        Button(action: {
-        presentationMode.wrappedValue.dismiss()
-    }, label: {
-        Image(systemName: "xmark")
-            .font(.headline)
-    })
+        Button(action: action, label: {
+            Image(systemName: "xmark")
+                .font(.headline)
+        })
     }
 }
 
+
 struct XMarkButton_Previews: PreviewProvider {
     static var previews: some View {
-        XMarkButton()
+        XMarkButton {
+            
+        }
+            .environmentObject(dev.homeVM)
     }
 }

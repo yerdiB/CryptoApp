@@ -18,10 +18,10 @@ struct HomeView: View{
         ZStack{
             Color.theme.background
                 .ignoresSafeArea()
-                .sheet(isPresented: $showPortfolioView, onDismiss: { showPortfolioView = false }) {
+                .sheet(isPresented: $showPortfolioView, onDismiss: { showPortfolioView = false }, content:{
                     PortfolioView()
                         .environmentObject(vm)
-                }
+                })
             
             VStack{
                 homeHeader
